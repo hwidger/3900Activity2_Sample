@@ -15,6 +15,7 @@ max-width: 100%;
 
  body {
    font-family: 'Open Sans', sans-serif;
+     background-color: sienna;
  }
 
 
@@ -35,6 +36,7 @@ max-width: 100%;
  h3 {
      margin: 0 0 1em 0;
  }
+
 
 
 /*************************************
@@ -63,8 +65,8 @@ header {
  font-size: 5em;
  font-weight: normal;
  line-height: 0.5;
- text-align: center;
- color: 	#32673f;
+ text-align: left;
+ color: 	black;
 
  }
 
@@ -85,7 +87,10 @@ h3  {
     margin: 15px 0 0;
 }
 
+card {
 
+    width: 100em;
+}
 
 
 
@@ -124,31 +129,6 @@ FOOTER
  color: #ccc;
  }
 
-/*************************************
-PAGE:
-**************************************/
-.mydiv {background: lightblue; width:250px; height: 250px;}
-
-.myimage {
-    float:left;
-    width:150px;
-    height:175px;
-    margin:20px;
-    border-radius: 20px;
-}
-
-
-
-
- /*************************************
-PAGE: ABOUT
-**************************************/
-.profile-photo {
-    display: block;
-    max-width: 400px;
-    margin: 0 auto 30px;
-    border-radius: 5px;
-}
 
 /*************************************
 COLORS
@@ -182,6 +162,18 @@ nav a.selected, nav a:hover {
 }
 /* site body*/
 body {
-    background-color: #fff;
+    background-color: grey;
     color: #000;
+}
+
+/*************************************
+CARD
+**************************************/
+
+card {
+    alignment: center;
+}
+
+card-title {
+    font-size: large;
 }
